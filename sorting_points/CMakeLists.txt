@@ -1,0 +1,2 @@
+project(sorting_points)
+add_executable(sorting_points main_points2D.cpp)

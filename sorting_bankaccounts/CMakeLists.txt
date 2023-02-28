@@ -1,0 +1,2 @@
+project(sorting_bankaccounts)
+add_executable(sorting_bankaccounts main_bankaccounts.cpp)

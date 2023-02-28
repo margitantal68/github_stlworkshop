@@ -1,0 +1,2 @@
+project(registration)
+add_executable(registration main_registration.cpp)

@@ -1,0 +1,2 @@
+project(secondorder)
+add_executable(secondorder main_secondorder.cpp)

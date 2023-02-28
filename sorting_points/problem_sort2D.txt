@@ -1,0 +1,36 @@
+SORT2D - 2D-SORT
+no tags
+Given n points in a two dimensional space, sort all the points in ascending order.
+
+    (x1, y1) > (x2, y2) if and only if (x1 > x2) or (x1 == x2 and y1 < y2)
+Input
+The first line consists of an integer t, the number of test cases. Then for each test case the first line consists of an integer n, the number of points. Then the next n lines contains two integers xi, yi which represents the point.
+
+Output
+For each test case print the sorted order of the points.
+
+Constraints
+1 <= t <= 10
+
+1 <= n <= 100000
+
+-10^9 <= coordinates <= 10^9
+
+NOTE: Strict time limit. Prefer scanf/printf/BufferedReader instead of cin/cout/Scanner.
+
+Example
+Input:
+1
+5
+3 4
+-1 2
+5 -3
+3 3
+-1 -2
+
+Sample Output:
+-1 2
+-1 -2
+3 4
+3 3
+5 -3
