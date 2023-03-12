@@ -1,5 +1,11 @@
-# STL gyorstalpaló
+# I. STL gyorstalpaló
+* [A sort algoritmus](https://en.cppreference.com/w/cpp/algorithm/sort)
+* [Az unordered_set tároló](https://www.programiz.com/cpp-programming/unordered-set)
+* [A map tároló](https://en.cppreference.com/w/cpp/container/map)
+* [A set tároló](https://www.cosmiclearn.com/cplusplus/stdset.php)
+* [A deque tároló](https://www.cosmiclearn.com/cplusplus/stdqueue.php)
 
+# II. Kitűzött feladatok
 ## Rendezések
 * [Feladat: SORT2D - 2D-SORT](https://www.spoj.com/problems/SORT2D/)
   * [Megoldás](sorting_points/main_points2D.cpp)
