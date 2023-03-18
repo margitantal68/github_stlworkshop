@@ -28,10 +28,23 @@ int main() {
         for (int i = 0; i < numAccounts; ++i) {
             string line;
             getline(cin, line);
-            accounts.push_back(line);
+            accounts.emplace_back(line);
         }
-        // Process input
+        sort(accounts.begin(), accounts.end());
 
+        int counter = 1;
+        string account = accounts[0];
+        for (int i = 1; i < accounts.size(); ++i) {
+            if (accounts[i] == account) {
+                ++counter;
+            } else {
+                cout << account << " " << counter << endl;
+                account = accounts[i];
+                counter = 1;
+            }
+        }
+        cout << account << " " << counter << endl;
+        cout << endl;
         // skip new line
         getline(cin, line);
     }
